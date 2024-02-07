@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  font-family: "Roboto";
+}
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -81,7 +84,6 @@ body,
   height: 100%;
 }
 
-
 /*
 html::-webkit-scrollbar {
   display: none;
@@ -119,6 +121,6 @@ html {
 .dark ::-webkit-scrollbar-thumb:hover {
   background: hsl(240, 6%, 51%);
 }
- ::-webkit-scrollbar-thumb:hover {
+::-webkit-scrollbar-thumb:hover {
   background: hsl(214, 3%, 41%);
 }
